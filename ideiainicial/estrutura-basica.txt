@@ -1,0 +1,10 @@
+nav full direita => home, habilidades, projetos, contato
+div main 1 => meu nome e minha profissao
+div main 2 => uma foto minha
+		embaixo vai ter um botão "Entre em contato"
+
+
+cor principal => branco
+cor de contraste => preto
+
+fonte Trirong Font
