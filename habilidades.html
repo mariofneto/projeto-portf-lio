@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habilidades</title>
+    <link rel="stylesheet" href="/estilos/habilidades.css">
 </head>
 <body>
     <header>
@@ -18,36 +19,39 @@
         </nav>
     </header>
     <main>
-        <h1>Habilidades & Cursos</h1>
-        <div id="LinguagensFortes">
-            <h2>Fortes:</h2>
-            <ul>
-                <li><img src="imagens/icon-csharp.png" alt="icon-csharp">C#</li>
-                <li><img src="imagens/icon-dotnet.png" alt="icon-dotnet">.NET</li>
-                <li><img src="imagens/icon-entity-framework.png" alt="icon-entity-framework">Entity Framework</li>
-                <li><img src="imagens/icon-sqlserver.png" alt="icon-sqlserver">SQL Server</li>
-            </ul>
-        </div>
-        <div id="LinguagensConhecidas">
-            <h2>Conhecidas:</h2>
-            <ul>
-                <li><img src="imagens/icon-html5.png" alt="icon-html5">HTML5</li>
-                <li><img src="imagens/icon-css3.png" alt="icon-css3">CSS3</li>
-                <li><img src="imagens/icon-JS.png" alt="icon-JS">JavaScript</li>
-            </ul>
-        </div>
-        <div id="Cursos">
-            <h2>Cursos:</h2>
-            <ul>
-                <li><a href="https://balta.io/certificados/e8653f06-a42c-47a8-9c96-a899cb53acb1" target="_blank">Fundamentos do C#</a></li>
-                <li><a href="https://balta.io/certificados/69e69ce1-5193-433f-a904-1d436276aec7" target="_blank">Fundamentos da Orientação a Objetos</a></li>
-                <li><a href="https://balta.io/certificados/40b0d169-cf77-4585-ba37-dfe755057114" target="_blank">Fundamentos do SQL Server</a></li>
-                <li><a href="https://balta.io/certificados/5c87e891-61ab-4a64-aef4-db5b2ec03aae" target="_blank">Acesso à dados com .NET, C#, Dapper e SQL Server</a></li>
-                <li><a href="https://www.cursoemvideo.com/certificates/certificado/?course_id=27745&cert-nonce=2fec5ade36" target="_blank">Javascript [40 Horas]</a></li>
-                <li><a href="https://www.cursoemvideo.com/certificates/certificado/?course_id=51689&cert-nonce=1c69b490cd" target="_blank">Curso HTML5 e CSS3: módulo 1 de 5 [40 HORAS]</a></li>
-                <li><a href="https://www.cursoemvideo.com/certificates/certificado/?course_id=59254&cert-nonce=2cc0fe71f4" target="_blank">Curso HTML5 e CSS3: módulo 2 de 5 [40 HORAS]</a></li>
-            </ul>
-        </div>
+        <h1 class="msg">Habilidades & Cursos</h1>
+                <div id="paizao">
+                    <h2 class="msg">Fortes:</h2>
+                    <div class="containerBack">
+                        <div><img src="imagens/icon-csharp.png" alt="icon-csharp" style="width: 90px; height: 90px;"></div>
+                        <div><img src="imagens/icon-dotnet.png" alt="icon-dotnet" style="width: 90px; height: 90px;"></div>
+                        <div><img src="imagens/icon-entity-framework.png" alt="icon-entity-framework" style="width: 90px; height: 90px;"></div>
+                        <div><img src="imagens/icon-sqlserver.png" alt="icon-sqlserver" style="width: 90px; height: 90px;"></div>
+                    </div>
+                               
+                                
+                                <h2 class="msg">Conhecidas:</h2>
+                                <div class="containerFront">
+                        <div><img src="imagens/icon-html5.png" alt="icon-html5" style="width: 90px; height: 90px;"></div>
+                        <div><img src="imagens/icon-css3.png" alt="icon-css3" style="width: 90px; height: 90px;"></div>
+                        <div><img src="imagens/icon-JS.png" alt="icon-JS" style="width: 90px; height: 90px;"></div>
+                                </div>
+                </div>
+
+            <h2 id="msgDiferente">Cursos:</h2>
+                <div class="containerCursos">
+                        <ul>
+                            <div><a href="https://balta.io/certificados/e8653f06-a42c-47a8-9c96-a899cb53acb1" target="_blank">Fundamentos do C#</a></div>
+                            <div><a href="https://balta.io/certificados/69e69ce1-5193-433f-a904-1d436276aec7" target="_blank">Fundamentos da Orientação a Objetos</a></div>
+                            <div><a href="https://balta.io/certificados/40b0d169-cf77-4585-ba37-dfe755057114" target="_blank">Fundamentos do SQL Server</a></div>
+                            <div><a href="https://balta.io/certificados/5c87e891-61ab-4a64-aef4-db5b2ec03aae" target="_blank">Acesso à dados com .NET, C#, Dapper e SQL Server</a></div>
+                            <div><a href="https://www.cursoemvideo.com/certificates/certificado/?course_id=27745&cert-nonce=2fec5ade36" target="_blank">Javascript [40 Horas]</a></div>
+                            <div><a href="https://www.cursoemvideo.com/certificates/certificado/?course_id=51689&cert-nonce=1c69b490cd" target="_blank">Curso HTML5 e CSS3: módulo 1 de 5 [40 HORAS]</a></div>
+                            <div><a href="https://www.cursoemvideo.com/certificates/certificado/?course_id=59254&cert-nonce=2cc0fe71f4" target="_blank">Curso HTML5 e CSS3: módulo 2 de 5 [40 HORAS]</a></div>
+                        </ul>
+                    
+                </div>
+
     </main>
 </body>
 </html>

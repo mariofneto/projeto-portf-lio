@@ -65,13 +65,32 @@ a{
     margin-top: 80px;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content: stretch;
-    margin-top: 20%;
-    margin-left: 10%;
+.projetando{
+  margin: 20px;
+}
 
+.container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+@media screen and (max-width: 600px) {
+  .container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.projetando{
+  margin: 20px;
+}
 }
 
 .projetando:hover{

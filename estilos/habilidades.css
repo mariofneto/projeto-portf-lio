@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    font-family: 'Lora', serif;
+}
+
+nav#barra-navegacao{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+
+}
+
+nav#barra-navegacao > ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(195, 190, 190);
+  }
+
+li {
+    display: inline;
+    float: right;
+  }
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: rgba(72, 70, 70, 0.314);
+    transition-duration: 0.3s;
+  }
+
+a{
+    text-decoration: none;
+}
+
+h1.msg{
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 500;
+  text-shadow: -1px 1px 3px #00000045;
+}
+
+h2.msg{
+  margin-left: 50px;
+  margin-top: 80px;
+  font-weight: 500;
+  text-shadow: -1px 1px 3px #00000045;
+}
+
+#paizao{
+  display: inline-flex;
+}
+
+div.containerBack{
+  display: flex;
+  width: 500px;
+  height: 400px;
+  margin-top: 80px;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: -2px 0px 26px -6px rgb(0 0 0 / 32%);
+}
+
+div.containerFront{
+  display: flex;
+  width: 500px;
+  height: 400px;
+  margin-top: 80px;
+  margin-left: 10px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: -2px 0px 26px -6px rgb(0 0 0 / 32%);
+}
+
+#msgDiferente{
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 500;
+  text-shadow: -1px 1px 3px #00000045;
+}
+
+div.containerCursos{
+  display: flex;
+  width: 50%;
+  border: 2px solid black;
+  justify-content: center;
+  margin-left: 368px;
+  padding: 20px;
+  box-shadow: -2px 0px 26px -6px rgb(0 0 0 / 32%);
+}
+
+div > a{
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  text-shadow: -2px -1px 3px #00000033;
+}
+
+@media screen and (max-width: 600px)
+{
+  #paizao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  div.containerBack{
+    width: 300px;
+    height: 400px;
+  }
+  div.containerFront{
+    width: 300px;
+    height: 400px;
+  }
+
+  div.containerCursos{
+    display: block;
+    margin-left: 97px;
+    width: 300px;
+    height: 400px;
+    
+  }
+}
+
+
+
+
+
+
+
+

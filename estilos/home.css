@@ -106,3 +106,24 @@ div#Foto > img{
   box-shadow: 0px 0px 5px 0px #00000099;
     
 }
+
+@media screen and (max-width: 600px){
+  h1#meuNome{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  h2#minhaArea{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  div#Foto > img{
+    width: 40%;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px #00000099;
+  }
+ 
+}
